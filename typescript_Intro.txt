@@ -1,0 +1,59 @@
+require the nodejs should be installed
+
+node -v    //it will display the version of the nodejs if installed.
+
+to install typescript library using npm(node package manager) command:
+======================================================================
+
+
+npm install -g typescript
+
+
+//check the version of typescript
+
+tsc -version //current version of typescript
+
+how to compile typescript file(.ts):
+====================================
+  
+tsc filename.ts  ==after compile==> filename.js
+
+ex:
+====
+tsc exOnts1.ts ==>  exOnts1.js
+
+
+how to run typescript file once compiled successfully:
+=======================================================
+node filename.js
+
+ex:
+====
+node  exOnts1.js
+
+
+
+declaring a variable which accepts the string and Boolean type of data?
+
+let kh:string|boolean
+
+declare a function which return a string type of data ?
+
+function msg():string{
+
+return "hello";
+}
+
+declare a variable based on customtype(alias) using existing datatype(number,string,boolean...,).
+
+type smith=number;
+
+let vt:smith=10;
+
+
+
+
+
+
+
+
